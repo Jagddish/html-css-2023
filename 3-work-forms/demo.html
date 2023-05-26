@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with forms</title>
+  </head>
+  <body>
+    <h1>Form Controls</h1>
+    <form action="">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" placeholder="username" />
+      <label for="password">Password</label>
+      <input type="text" name="password" placeholder="password" id="password" />
+      <button>Sumbit</button>
+    </form>
+    <h2>Input types</h2>
+    <form action="">
+      <input type="text" name="" id="" required />
+      <input type="number" name="" id="" required />
+      <input type="password" name="" id="" required />
+      <input type="email" name="" id="" placeholder="email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="color" />
+      <input type="checkbox" required />
+      <button>submit</button>
+    </form>
+    <h2>Text area</h2>
+    <p>multiple text area input more columns and rows</p>
+    <p>this is not an input type</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <h2>Range input</h2>
+    <form action="">
+      <input type="range" min="0" max="10" step="2" />
+      <button>submit</button>
+    </form>
+    <h2>Checkbox</h2>
+    <form action="">
+      <label for="agree">I agree</label>
+      <input type="checkbox" id="agre" name="terms" />
+      <button>submit</button>
+    </form>
+    <form action="">
+      <label for="shirtsize">Select your shirt size</label>
+      <select name="" id="shirtsize">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+      <button>submit</button>
+    </form>
+    <form action="">
+      <label for="phone">Call me</label>
+      <input type="radio" id="phone" name="contact" value="phne" />
+      <label for="email">Email me</label>
+      <input type="radio" id="email" value="email" name="contact" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
